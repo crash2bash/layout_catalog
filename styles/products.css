@@ -1,0 +1,18 @@
+.products {
+  width: 944px;
+  max-width: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto; }
+
+@media (min-width: 1200px) {
+  .products {
+    max-width: 1200px; } }
+
+/*# sourceMappingURL=products.css.map */
