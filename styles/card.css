@@ -2,11 +2,7 @@
   width: 200px;
   height: 403px;
   border: 1px solid #f3f3f3;
-  border-radius: 5px;
-  margin-bottom: 50px;
-  margin-right: 48px; }
-  .products__item:nth-child(4n) {
-    margin-right: 0; }
+  border-radius: 5px; }
 
 .card {
   display: -webkit-box;
