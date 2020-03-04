@@ -27,13 +27,15 @@ p {
     height: 60px;
     margin: 0 auto;
     padding: 0 50px; }
+  @media (min-width: 1200px) {
+    .header .header__container {
+      max-width: 1200px; } }
+  .header__logo {
+    width: 40px;
+    height: 40px; }
 
 .header__link {
   line-height: 0; }
-
-@media (min-width: 1200px) {
-  .header__container {
-    max-width: 1200px; } }
 
 .nav__list {
   margin: 0;
@@ -100,7 +102,9 @@ p {
   border-radius: 5px; }
   .card__photo {
     margin: 0 auto;
-    margin-bottom: 45px; }
+    margin-bottom: 45px;
+    width: 160px;
+    height: 134px; }
   .card__title {
     margin-bottom: 5px;
     font-size: 12px;

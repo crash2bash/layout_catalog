@@ -15,7 +15,9 @@
   border-radius: 5px; }
   .card__photo {
     margin: 0 auto;
-    margin-bottom: 45px; }
+    margin-bottom: 45px;
+    width: 160px;
+    height: 134px; }
   .card__title {
     margin-bottom: 5px;
     font-size: 12px;
