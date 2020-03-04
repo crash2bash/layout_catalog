@@ -1,9 +1,9 @@
-.main__header {
+.header {
   min-width: 1024px;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   margin-bottom: 50px; }
-  .main__header-container {
+  .header__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -22,7 +22,7 @@
   line-height: 0; }
 
 @media (min-width: 1200px) {
-  .main__header-container {
+  .header__container {
     max-width: 1200px; } }
 
 /*# sourceMappingURL=header.css.map */

@@ -1,0 +1,24 @@
+.button {
+  display: block;
+  width: 100%;
+  padding: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px; }
+  .button--buy {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    border: 1px solid #00acdc;
+    background-color: #00acdc;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700; }
+    .button--buy:hover {
+      background-color: #fff;
+      color: #00acdc; }
+
+/*# sourceMappingURL=button.css.map */
