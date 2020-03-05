@@ -10,12 +10,21 @@
   height: 403px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 30px 14px 14px;
+  padding: 0 14px;
   border: 1px solid #f3f3f3;
   border-radius: 5px; }
+  .card__image {
+    margin: 15px auto 27px;
+    padding: 12px 0;
+    border: 3px solid transparent;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out; }
+    .card__image:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      border-radius: 3px;
+      border: 3px solid #f3f3f3; }
   .card__photo {
-    margin: 0 auto;
-    margin-bottom: 45px;
     width: 160px;
     height: 134px; }
   .card__title {
@@ -38,7 +47,9 @@
     margin-bottom: 20px; }
   .card__reviews {
     text-decoration: none;
-    color: #000; }
+    color: #000;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
     .card__reviews:hover {
       color: #00acdc; }
   .card__price {
